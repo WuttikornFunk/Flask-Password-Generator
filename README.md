@@ -1,29 +1,47 @@
-# 🔐 Flask Password Generator
-### เว็บแอปพลิเคชันสร้างรหัสผ่านความปลอดภัยสูง (Secure & Customizable)
+# 🔐 Flask Secure Password Generator
 
-โปรเจคนี้เป็น Web Application สำหรับสุ่มรหัสผ่านที่พัฒนาด้วย **Python (Flask)** ออกแบบมาให้ผู้ใช้สามารถปรับแต่งรูปแบบรหัสผ่านได้ละเอียด ทั้งความยาว การผสมตัวอักษร และฟีเจอร์พิเศษในการแทรกคำช่วยจำ (Keyword)
+A robust and customizable web application for generating high-entropy passwords. Built with **Python (Flask)**, this tool is designed to balance security with usability, allowing users to create strong passwords that fit specific requirements or memorable patterns.
 
----
+## 🚀 Project Overview
 
-## ✨ ฟีเจอร์เด่น (Key Features)
-* **Customizable Length:** กำหนดความยาวของรหัสผ่านและจำนวนที่ต้องการสร้างได้
-* **Keyword Integration:** สามารถแทรกคำที่ต้องการ (Keyword) ลงไปในรหัสผ่าน (เลือกตำแหน่งหน้า/หลังได้)
-* **Smart Complexity:** เลือกผสมตัวอักษร (Text), ตัวเลข (Numbers) และอักขระพิเศษ (Symbols) ได้ตามต้องการ
+In an era where digital security is paramount, relying on weak passwords is a risk. This application provides a user-friendly interface to generate random, secure passwords. Unlike standard generators, it offers a unique **"Keyword Injection"** feature, allowing users to embed a specific word (prefix or suffix) to make the password easier to remember without compromising complexity.
 
-## 🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
-* **Backend:** Python, Flask
+## ✨ Key Features
+
+* **📏 Granular Control:** Fully customizable password length and batch quantity (generate multiple passwords at once).
+* **🔏 Keyword Integration:** Option to insert a custom "Keyword" at the beginning or end of the password, creating memorable yet strong passphrases.
+* **🎛️ Smart Complexity:** Toggle specific character sets:
+    * Uppercase & Lowercase Letters (A-Z, a-z)
+    * Numeric Digits (0-9)
+    * Special Symbols (!@#$%)
+* **📱 Responsive Design:** Clean and mobile-friendly UI built with Bootstrap.
+
+## 🛠️ Tech Stack
+
+* **Backend:** Python 3, Flask Framework
 * **Frontend:** HTML5, CSS3, Bootstrap
 * **Version Control:** Git & GitHub
 
-## 🚀 วิธีการรันโปรแกรม (How to Run)
-
 1. **Clone โปรเจค**
+
    ```bash
+
    git clone [https://github.com/Wuttikorn777/Flask-Password-Generator.git](https://github.com/Wuttikorn777/Flask-Password-Generator.git)
 
+
+
 2. **ติดตั้ง Library**
+
+   ```bash
+
    pip install flask
 
-3. **เริ่มการทำงาน**
+
+
+4. **เริ่มการทำงาน**
+
+   ```bash
+
    python main.py
+
    เปิดบราวเซอร์ไปที่: http://127.0.0.1:5000
