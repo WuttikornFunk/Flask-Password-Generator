@@ -22,6 +22,12 @@ In an era where digital security is paramount, relying on weak passwords is a ri
 * **Frontend:** HTML5, CSS3, Bootstrap
 * **Version Control:** Git & GitHub
 
+<p align="center">
+  <img src="image/homegen.png" alt="Home Page" width="90%">
+  <img src="image/testgen.png" alt="test Interface" width="45%">
+  <img src="image/generated.png" alt="generated Interface" width="90%">
+</p>
+
 1. **Clone the repository**
 
    ```bash
